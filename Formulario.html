@@ -6,10 +6,10 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h1>Consulta sobre satisfacción</h1>
-    <p>Autobuses "El viaje más largo"</p>
+    <h1><b> Consultasobre satisfacción</b></h1>
+    <p><b>Autobuses "El viaje más largo"</b></p>
     <form>
-        Nombre<input name="Nombre" type="text" size="23" >
+        Nombre <input name="Nombre" type="text" size="23" >
     </form>
     <form>
         Email <input name="Email" type="text" value="@" size="23">
@@ -26,6 +26,7 @@
     <form>
         <input name="SexoM" type="radio" value="2"> Mujer
     </form>
+    <br>
     <form>Frecuencia de los viajes</form>
     <select name="Viajes">
         <option value="1">Varias veces al dia</option>
@@ -33,13 +34,25 @@
         <option value="3">Varias veces a la semana</option>
         <option value="4">Varias veces al mes</option>
     </select>
+    <br>
+    <br>
     <form>
         Comentarios sobre su satisfacción personal
     </form>
-   <TEXTAREA name="Comentario" cols="50" rows="10">
+   <TEXTAREA name="Comentario" cols="32" rows="10">
    </TEXTAREA>
+   <br>
+   <br>
    <form>
-     <input> 
+     <input name="Notificación" type="checkbox"> Deseo recibir notificación de las novedades en las líneas de autobuses.
+   </form>
+   <br>
+   <form>
+     <input name="Enviar" type="submit" value="Enviar formulario" >
+   </form>
+   <br>
+   <form> 
+    <input name="Borrar" type="reset" value="Borrar todo">
    </form>
 </body>
 </html>
