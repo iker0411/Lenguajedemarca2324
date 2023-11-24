@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+p.etiqueta {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: darkblue;
+}
+
+td {
+    color: white;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: green;
+}
