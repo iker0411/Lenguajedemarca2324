@@ -1,0 +1,9 @@
+.inverso {
+    background-color: lightgreen; 
+    color: navy; 
+}
+
+body, td, p {
+    background-color: lightblue; 
+    color: brown; 
+}
