@@ -1,0 +1,16 @@
+.listaA{
+    background: #f8f9fa; /* Color de fondo */
+    padding: 20px; /* Espacio entre el contenido y el borde */
+    margin: 10px; /* Espacio fuera del borde */
+    border: 2px solid #6c757d;
+    list-style-position: inside;
+    list-style-image: url(https://blogsaverroes.juntadeandalucia.es/iesmiravent/files/2022/03/ies-antiguo.jpg);
+}
+.listaB{
+    background: #0080ff; /* Color de fondo */
+    padding: 20px; /* Espacio entre el contenido y el borde */
+    margin: 10px; /* Espacio fuera del borde */
+    border: 2px solid #04ff9f;
+    list-style-position: outside;
+    list-style-image: url(https://blogsaverroes.juntadeandalucia.es/iesmiravent/files/2022/03/ies-antiguo.jpg);
+}

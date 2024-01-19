@@ -1,0 +1,16 @@
+body {
+    background-image: url(https://blogsaverroes.juntadeandalucia.es/iesmiravent/files/2022/03/ies-antiguo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+  
+h3 {
+    background-image: url(https://blogsaverroes.juntadeandalucia.es/iesmiravent/files/2023/02/IMG_20230215_123923-1024x766.jpg);
+    background-size: cover;
+  }
+  
+p {
+    background-image: url(https://blogsaverroes.juntadeandalucia.es/iesmiravent/files/2023/02/IMG_20230215_123951-1024x766.jpg);
+    background-size: cover;
+  }

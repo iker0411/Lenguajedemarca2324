@@ -1,0 +1,8 @@
+.pregunta {
+    color: blue;
+    font-weight: bold;
+}
+.respuesta {
+    color: green;
+    margin-left: 20px;
+}

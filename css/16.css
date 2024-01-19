@@ -1,0 +1,9 @@
+.lista_numerica {
+    list-style-type: decimal; /* Estilo de lista numérica */
+    color: blue; /* Color del texto azul */
+}
+.lista_no_numerica {
+    list-style-type: circle; /* Estilo de lista no numérica */
+    list-style-position: inside; /* Posición del estilo de lista*/
+    color: red; 
+}

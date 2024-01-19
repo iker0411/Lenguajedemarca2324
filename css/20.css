@@ -1,0 +1,14 @@
+.h2 {
+    /* Formato reducido: estilo | variante | peso | tamaño/altura de línea | familia de fuentes */
+    font: italic small-caps bold 20px/1.5 Arial, sans-serif;
+}
+
+.p {
+    /* Formato reducido: estilo | peso | tamaño | familia de fuentes */
+    font: normal bold 16px Verdana, sans-serif;
+}
+
+.table {
+    /* Formato reducido: peso | tamaño | familia de fuentes */
+    font: bold 14px 'Courier New', Courier, monospace;
+}

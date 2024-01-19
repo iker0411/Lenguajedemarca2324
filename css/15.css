@@ -1,0 +1,7 @@
+.titulo_dam {
+    border-top: 5px solid #000000; /* Borde superior de 5px */
+    border-bottom: 5px solid #000000; /* Borde inferior de 5px */
+    border-left: 3px solid #000000; /* Borde izquierdo de 3px */
+    border-right: 3px solid #000000; /* Borde derecho de 3px */
+    color: aqua;
+}

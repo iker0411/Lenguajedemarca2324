@@ -1,0 +1,12 @@
+#principio {
+    color: blue;
+    font-weight: bold;
+}
+#central {
+    color: green;
+    text-align: center;
+}
+#final {
+    color: red;
+    text-align: right;
+}    
