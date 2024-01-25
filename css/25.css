@@ -1,0 +1,9 @@
+p {
+    min-height: 50px; /* Altura mínima de 50px */
+    max-height: 100px; /* Altura máxima de 100px */
+    min-width: 200px; /* Anchura mínima de 200px */
+    max-width: 400px; /* Anchura máxima de 400px */
+    background-color: rgb(119, 116, 116); /* Color de fondo */
+    padding: 10px; /* Espacio interno */
+    margin: 10px 0; /* Margen superior e inferior */
+  }
