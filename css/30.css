@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+ 
+  caption {
+    padding: 10px;
+    background-color: #7bb8f5;
+    font-weight: bold;
+  }
+  
+
+  thead th {
+    background-color: #ee590f;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+
+  tbody td, tbody th {
+    border: 1px solid #170101;
+    padding: 10px;
+  }

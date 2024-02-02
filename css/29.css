@@ -1,0 +1,32 @@
+.form-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para todos los elementos textarea dentro del contenedor del formulario */
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para todos los elementos checkbox dentro del contenedor del formulario */
+  .form-container input[type="checkbox"] {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para todos los elementos radio dentro del contenedor del formulario */
+  .form-container input[type="radio"] {
+    margin: 10px 0;
+  }
+  
+  /* Estilo para todos los elementos submit dentro del contenedor del formulario */
+  .form-container input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }

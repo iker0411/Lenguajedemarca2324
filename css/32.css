@@ -1,0 +1,40 @@
+div {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #f8f9fa;
+  }
+  
+  /* Posición estática (por defecto) */
+  #div1 {
+    position: static;
+  }
+  
+  /* Posición relativa */
+  #div2 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  
+  /* Posición fija */
+  #div3 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* Posición absoluta */
+  #div4 {
+    position: absolute;
+    top: 120px;
+    left: 220px;
+  }
+  
+  /* Posición pegajosa */
+  #div5 {
+    position: sticky;
+    top: 0;
+  }
