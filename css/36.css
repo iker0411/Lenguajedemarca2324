@@ -1,0 +1,20 @@
+.p {
+    float: left;
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para la primera palabra */
+.first-word {
+    font-size: 1.5em;
+}
+
+/* Estilo para la primera letra */
+.first-letter {
+    font-size: 2em;
+}
+
+/* Estilo para la primera letra grande */
+.first-letter-large {
+    font-size: 3em;
+}

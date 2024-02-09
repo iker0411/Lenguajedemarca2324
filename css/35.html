@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 200px; height: 100px; overflow: visible;">
+        <p>Este es un párrafo largo que no se recortará.</p>
+    </div>
+    <div style="width: 200px; height: 100px; overflow: hidden;">
+        <p>Este es un párrafo largo que se recortará.</p>
+    </div>
+    <div style="width: 200px; height: 100px; overflow: scroll;">
+        <p>Este es un párrafo largo con una barra de desplazamiento.</p>
+    </div>
+    <div style="width: 200px; height: 100px; overflow: auto;">
+        <p>Este es un párrafo largo con barras de desplazamiento automáticas.</p>
+    </div>
+    <div style="width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        <p>Este es un párrafo largo con un efecto de truncamiento.</p>
+    </div>                    
+</body>
+</html>
