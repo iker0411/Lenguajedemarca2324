@@ -1,0 +1,22 @@
+.contenedor {
+    width: 960px; /* Ancho fijo */
+    margin: auto;
+}
+.contenedor2 {
+    width: 80%; /* Ancho líquido */
+    margin: auto;
+}
+.cabecera, .pie {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+.columna {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}

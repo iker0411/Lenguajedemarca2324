@@ -1,0 +1,18 @@
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+.cabecera, .pie {
+    background-color: #0176ec;
+    text-align: center;
+    padding: 20px;
+}
+.columna {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
