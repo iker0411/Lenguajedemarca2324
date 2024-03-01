@@ -1,0 +1,34 @@
+ /* Estilo para el primer DIV */
+ div:first-child ol li {
+    color: blue;
+  }
+
+  /* Estilo para el último elemento de la lista numerada */
+  div:first-child ol li:last-child {
+    font-weight: bold;
+  }
+
+  /* Estilo para el segundo DIV */
+  div:nth-child(2) p ul li {
+    color: rgb(0, 200, 0);
+  }
+
+  /* Estilo para el único elemento de la lista no numerada */
+  div:nth-child(2) p ul li:only-child {
+    font-style: italic;
+  }
+
+  /* Estilo para la tabla */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table td, table th {
+    border: 1px solid rgb(214, 4, 4);
+    padding: 8px;
+  }
+
+  table th {
+    background-color: rgb(182, 174, 174);
+  }

@@ -1,0 +1,8 @@
+/*selector de hermano adyacente*/
+h1+p{
+    color: red;
+}
+/*selector de hermano general*/
+h2~p{
+    color: blue;
+}

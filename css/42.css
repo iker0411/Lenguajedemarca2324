@@ -1,0 +1,24 @@
+/* Selector de atributos para input type="text" */
+input[type="text"] {
+    background-color: lightblue;
+  }
+  
+  /* Selector de atributos para input type="checkbox" */
+  input[type="checkbox"] {
+    background-color: lightgreen;
+  }
+  
+  /* Selector de atributos para input type="radio" */
+  input[type="radio"] {
+    background-color: rgb(48, 1, 202);
+  }
+  
+  /* Selector de atributos para input type="submit" */
+  input[type="submit"] {
+    background-color: rgb(155, 117, 122);
+  }
+  
+  /* Selector de atributos para input type="reset" */
+  input[type="reset"] {
+    background-color: rgb(202, 237, 1);
+  }

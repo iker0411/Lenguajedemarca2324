@@ -1,0 +1,14 @@
+/* Estilo para las filas impares en el primer DIV */
+#div1 table tbody tr:nth-child(odd) {
+    background-color: lightblue;
+  }
+  
+  /* Estilo para las filas pares en el segundo DIV */
+  #div2 table tbody tr:nth-child(even) {
+    background-color: lightgreen;
+  }
+  
+  /* Estilo para la última fila y las filas anteriores en el tercer DIV */
+  #div3 table tbody tr:nth-last-child(-n+4) {
+    background-color: lightgray;
+  }

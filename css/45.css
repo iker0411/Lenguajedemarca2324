@@ -1,0 +1,25 @@
+    /* Estilo para el primer y último elemento de cada lista */
+    div ul li:first-child, div ul li:last-child {
+        color: rgb(243, 12, 12);
+      }
+  
+      /* Estilo para las filas terceras de cada tabla */
+      table tr:nth-child(3n) {
+        background-color: yellow;
+      }
+  
+      /* Estilo para los párrafos */
+      p:nth-child(even) {
+        background-color: rgb(0, 186, 248);
+      }
+  
+      /* Estilo para las tablas */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+  
+      table td {
+        border: 1px solid black;
+        padding: 5px;
+    }

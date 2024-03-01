@@ -1,0 +1,11 @@
+/* Selector descendiente */
+
+div a{
+ color: red
+}
+/* Selector hijos */
+
+div > a{
+ color: aqua;
+}
+
