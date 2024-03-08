@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between; /* Espacio entre los DIVs */
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .item {
+            flex: 1; /* Ocupa el mismo espacio en el contenedor */
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        /* Estilo específico para los DIVs centrales */
+        .item.center {
+            flex-grow: 1; /* Ocuparán el espacio libre */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Elemento 1</div>
+        <div class="item center">Elemento 2 (Centro)</div>
+        <div class="item center">Elemento 3 (Centro)</div>
+        <div class="item">Elemento 4</div>
+    </div>
+</body>
+</html>

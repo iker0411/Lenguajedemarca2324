@@ -1,0 +1,20 @@
+        /* Dos columnas para dispositivos con ancho menor a 800px */
+        @media (max-width: 800px) {
+            .text-column{
+                column-count: 2;
+            }
+        }
+
+        /* Tres columnas para dispositivos con ancho menor a 1280px */
+        @media (max-width: 1280px) {
+            .text-column{
+                column-count: 3;
+            }
+        }
+
+        /* Cuatro columnas para dispositivos con ancho mayor o igual a 1400px */
+        @media (min-width: 1400px) {
+            .text-column{
+                column-count: 4;
+            }
+        }

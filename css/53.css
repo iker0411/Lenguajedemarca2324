@@ -1,0 +1,20 @@
+        /* Estilo para el contenedor */
+        .row-container {
+            display: flex;
+            flex-direction: row; /* Organizar en filas */
+            gap: 20px; /* Espacio entre los DIVs */
+            justify-content: flex-end; /* Alineación al final del eje Y */
+        }
+
+        /* Estilo para cada DIV */
+        .column {
+            flex: 1; /* Ocupa el mismo espacio en la fila */
+            border: 1px solid #fafafa;
+            padding: 10px;
+        }
+
+        /* Estilo para las imágenes */
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }

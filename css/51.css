@@ -1,0 +1,19 @@
+ /* Estilo para los contenedores */
+ .column-container {
+    display: flex;
+    flex-wrap: wrap-reverse; /* Columnas reversibles */
+    gap: 20px; /* Espacio entre los DIVs */
+}
+
+/* Estilo para cada DIV */
+.column {
+    flex: 1; /* Ocupa el mismo espacio en la columna */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilo para las imágenes */
+.column img {
+    max-width: 100%;
+    height: auto;
+}
