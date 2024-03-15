@@ -1,0 +1,9 @@
+p::after{
+    border-collapse: collapse;
+}
+
+P::after H2{
+    border-bottom: 1px solid black;
+    padding: 10px ;
+}
+

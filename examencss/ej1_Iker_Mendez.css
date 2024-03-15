@@ -1,0 +1,15 @@
+body {
+    font-family:sans-serif;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    background-color: #45ff45;
+}
+h2{    
+text-align: right;
+text-transform: uppercase;
+}
+body H2{
+    text-align: right;
+    color: red;
+  
+}

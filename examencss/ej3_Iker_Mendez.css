@@ -1,0 +1,15 @@
+h2::before{
+    content: "Seguimos con...";
+    font-style: italic;
+}
+
+p::first-letter{
+    background-color: black;
+    padding: 2px;
+    color: white;
+    max-width: 5px;
+}
+h2:hover{
+color: white;
+}
+

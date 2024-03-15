@@ -1,0 +1,13 @@
+h2 + p {
+    font-weight: bold;
+}
+
+tbody th {
+    background-color: lightgray;
+}
+
+#indice li{
+    font-style: italic;
+}
+
+

@@ -1,0 +1,15 @@
+#cajas:hover{
+    cursor: crosshair;
+}
+#cajas{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+}
+.cajas div{
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+}

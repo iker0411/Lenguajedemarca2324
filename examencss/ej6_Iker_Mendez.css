@@ -1,0 +1,7 @@
+#letra{
+    float: left;
+    font-size: 2em;
+}
+#letras  div > p{
+color: blue;
+}

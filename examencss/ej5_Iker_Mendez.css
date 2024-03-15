@@ -1,0 +1,23 @@
+#hola a{
+    display: block;
+    color: blue;
+    padding: 5px;
+    width: 160px;
+    background-color: rgb(246, 255, 0);
+   text-decoration: none;
+    text-align: center;
+}
+
+#hola a:focus{
+    color: green;
+    background-color: yellow;
+}
+#hola a:visited {
+    color: #070708;
+    background-color: yellow;
+  }
+  
+#hola a:hover {
+    background-color: #ffffff;
+    color: #3e3c3f;
+  }                                                                                                                 
