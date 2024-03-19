@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---1. Crea un documento XML bien formado que almacene los pedidos para el señor Juan Delgado Martínez. El
+pedido se compone de una bicicleta A2023. A entregar en la calle Barco 4, tercer piso, letra A, el día 19-5
+2000.-->
+<pedidos>
+    <cliente>
+        <nombre>Juan</nombre>
+        <apellidos>Delgado Martínez</apellidos>
+    </cliente>
+    <articulo>
+        <tipo>Bicicleta</tipo>
+        <modelo>A2023</modelo>
+    </articulo>
+    <direccion>
+        <calle>Barco</calle>
+        <numero>4</numero>
+        <piso>tercer piso</piso>
+        <letra>A</letra>
+    </direccion>
+    <fecha_entrega>19-5-2000</fecha_entrega>
+</pedidos>
