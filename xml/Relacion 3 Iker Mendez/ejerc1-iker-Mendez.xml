@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <cliente>
+        <nombre>Juan</nombre>
+        <apellidos>Delgado Martínez</apellidos>
+    </cliente>
+    <articulo>
+        <tipo>Bicicleta</tipo>
+        <modelo>A2023</modelo>
+    </articulo>
+    <direccion>
+        <calle>Barco</calle>
+        <numero>4</numero>
+        <piso>tercer piso</piso>
+        <letra>A</letra>
+    </direccion>
+    <fecha_entrega>19-5-2000</fecha_entrega>
+</pedidos>

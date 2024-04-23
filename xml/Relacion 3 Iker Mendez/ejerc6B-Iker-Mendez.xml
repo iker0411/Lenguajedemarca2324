@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Documento2-->
+<!--Correciones:
+-Le he quitado al cierre de la etiqueta libro esto ] y le he puesto >, que era lo que había que poner.
+-Le he puesto las comilals a cervantes.
+-Le he puesto al final de cervantes esta / que falta en el cierre.
+-Le he quitado a mejor < que tenia entre la m y la e.
+-Le he cambiado la segunda vez que aparece nombre por apellido.
+-En la etiqueta de cieere de libros le he cambiado la l que estaba en mayúscula por la l en minúscula.
+-->
+<libros>
+    <libro id="quijote">
+        <titulo>El Quijote</titulo>
+        <autor nombre="cervantes" apellido="cervantes"/>
+        <descripcion>Es el mejor libro de cervantes.</descripcion> 
+    </libro>
+</libros>
