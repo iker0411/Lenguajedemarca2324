@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedido [
+<!ELEMENT pedido (cliente, producto, direccion, fecha_de_entrega)>
+<!ELEMENT cliente (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT producto (nombre, modelo)>
+<!ELEMENT direccion (calle, numero, piso, letra)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT piso (#PCDATA)>
+<!ELEMENT letra (#PCDATA)>
+<!ELEMENT fecha_de_entrega (#PCDATA)>
+]>
+<pedido>
+    <cliente>
+        <nombre>Juan Delgado Martínez</nombre>
+    </cliente>
+    <producto>
+        <nombre>Bicicleta</nombre>
+        <modelo>A2023</modelo>
+    </producto>
+    <direccion>
+        <calle>Barco</calle>
+        <numero>4</numero>
+        <piso>3</piso>
+        <letra>A</letra>
+    </direccion>
+    <fecha_de_entrega>19-5-2000</fecha_de_entrega>
+</pedido>

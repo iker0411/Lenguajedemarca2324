@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes [
+<!ELEMENT clientes (cliente)>
+<!ELEMENT cliente (dni, nombre, cuentas, prestamos)>
+<!ELEMENT cuentas (cuenta)>
+<!ELEMENT prestamos (prestamo)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cuenta (numero, saldo)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT saldo (#PCDATA)>
+<!ELEMENT prestamo (id, principal, plazo_en_meses, fecha_comienzo)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT principal (#PCDATA)>
+<!ELEMENT plazo_en_meses (#PCDATA)>
+<!ELEMENT fecha_comienzo (#PCDATA)>
+]>
+<clientes>
+    <cliente>
+        <dni>2443432s</dni>
+        <nombre>Juan</nombre>
+        <cuentas>
+            <cuenta>
+            <numero>2898547545478</numero>
+            <saldo>2.958$</saldo>
+            </cuenta>
+        </cuentas>
+    
+        <prestamos>
+            <prestamo>
+                <id>3</id>
+                <principal>Casa</principal>
+                <plazo_en_meses>10</plazo_en_meses>
+                <fecha_comienzo>26-3-2023</fecha_comienzo>
+            </prestamo>
+        </prestamos>
+    </cliente>
+</clientes>

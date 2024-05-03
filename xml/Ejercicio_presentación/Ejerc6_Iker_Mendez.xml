@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE temporada [
+<!ATTLIST año añ CDATA #REQUIRED>
+<!ATTLIST acrónimo acro CDATA #REQUIRED>
+<!ELEMENT temporada (año, piloto, escudería, circuitos)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT piloto (nombre, apellido, acrónimo, país)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT acrónimo (#PCDATA)>
+<!ELEMENT país (#PCDATA)>
+<!ELEMENT escudería (mombre, país, pilotos)>
+<!ELEMENT mombre (#PCDATA)>
+<!ELEMENT pilotos (pilotdo)>
+<!ELEMENT pilotdo (nombre)>
+<!ELEMENT circuitos (circuito)>
+<!ELEMENT circuito (nombre, país, podium)>
+<!ELEMENT podium (pilotoo+)>
+<!ELEMENT pilotoo (nombre, posición)>
+<!ELEMENT posición (#PCDATA)>
+]>
+<temporada>
+    <año añ="2024"></año>
+    <piloto>
+        <nombre>Juan</nombre>
+        <apellido>Palma</apellido>
+        <acrónimo acro="JUP"></acrónimo>
+        <país>España</país>
+    </piloto>
+    <escudería>
+        <mombre>Ferrari</mombre>   
+        <país>Italia</país> 
+        <pilotos>
+            <pilotdo>
+                <nombre>Juan</nombre>
+            </pilotdo>
+        </pilotos>
+    </escudería>
+    <circuitos>
+        <circuito>
+            <nombre>Circuito de Mónaco</nombre>
+            <país>Italia</país>
+            <podium>
+                <pilotoo>
+                    <nombre>Juan</nombre>
+                    <posición>1</posición>
+                </pilotoo>
+                <pilotoo>
+                    <nombre>Manuel</nombre>
+                    <posición>2</posición>
+                </pilotoo>
+                <pilotoo>
+                    <nombre>Iker</nombre>
+                    <posición>3</posición>
+                </pilotoo>
+            </podium>
+        </circuito>
+    </circuitos>
+</temporada>

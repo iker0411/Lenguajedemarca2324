@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudades [
+<!ELEMENT ciudades (ciudad*)>
+<!ELEMENT ciudad (nombre, país, continente)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT país (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+]>
+<ciudades>
+    <ciudad>
+        <nombre>Nueva Delhi</nombre>
+        <país>India</país>
+        <continente>Ásia</continente>
+    </ciudad>
+    <ciudad>
+        <nombre>Lisboa</nombre>
+        <país>Portugal</país>
+        <continente>Europa</continente>
+    </ciudad>
+    <ciudad>
+        <nombre>El Cairo</nombre>
+        <país>Egipto</país>
+        <continente>África</continente>
+    </ciudad>
+</ciudades>
