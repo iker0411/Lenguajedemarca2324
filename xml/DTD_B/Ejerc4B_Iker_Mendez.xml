@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE libros [
+<!ELEMENT libros (libro*)>
+<!ELEMENT libro EMPTY>
+<!ATTLIST libro nombre CDATA #REQUIRED>
+<!ATTLIST libro fecha (1969 | 1970 | 1971 |1972 |1973 | 1974) #REQUIRED>
+]>
+<libros>
+    <libro nombre=" Historia de dos ciudades " fecha="1969"/>
+    <libro nombre=" Sueño en el pabellón rojo " fecha="1971"/>
+    <libro nombre=" Triple representatividad " fecha="1973"/> 
+    <libro nombre=" Diez negritos " fecha="1974"/>
+</libros >
