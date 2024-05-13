@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Ejercicio5_Iker_Mendez.xsd">
+    <cliente>
+        <dni>2443432s</dni>
+        <nombre>Juan</nombre>
+        <cuentas>
+            <cuenta>
+                <numero>2898547545478</numero>
+                <saldo>2958</saldo>
+            </cuenta>
+        </cuentas>
+        <prestamos>
+            <prestamo>
+                <id>3</id>
+                <principal>Casa</principal>
+                <plazo_en_meses>10</plazo_en_meses>
+                <fecha_comienzo>2023-03-26</fecha_comienzo>
+            </prestamo>
+        </prestamos>
+    </cliente>
+</clientes>

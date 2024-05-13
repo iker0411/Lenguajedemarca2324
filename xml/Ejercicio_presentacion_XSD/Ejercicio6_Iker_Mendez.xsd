@@ -1,0 +1,78 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/temporada"
+           targetNamespace="http://example.com/temporada"
+           elementFormDefault="qualified">
+
+  <xs:element name="temporada">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="año">
+          <xs:complexType>
+            <xs:attribute name="año" type="xs:integer"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="piloto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="apellido" type="xs:string"/>
+              <xs:element name="acrónimo">
+                <xs:complexType>
+                  <xs:attribute name="acro" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="país" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="escudería">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="país" type="xs:string"/>
+              <xs:element name="pilotos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="piloto">
+                      <xs:complexType>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="circuitos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="circuito">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="país" type="xs:string"/>
+                    <xs:element name="podium">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="piloto">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="nombre" type="xs:string"/>
+                                <xs:element name="posición" type="xs:integer"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

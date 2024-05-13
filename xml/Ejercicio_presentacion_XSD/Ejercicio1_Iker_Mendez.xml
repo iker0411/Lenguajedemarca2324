@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Ejercicio1_Iker_Mendez.xsd">
+  <cliente>
+    <nombre>Juan Delgado Martínez</nombre>
+  </cliente>
+  <producto>
+    <nombre>Bicicleta A2023</nombre>
+  </producto>
+  <direccion>
+    <calle>Barco</calle>
+    <numero>4</numero>
+    <piso>3</piso>
+    <letra>A</letra>
+  </direccion>
+  <fecha_entrega>2000-05-19</fecha_entrega>
+</pedido>

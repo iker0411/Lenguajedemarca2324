@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Ejercicio3_Iker_Mendez.xsd">
+    <ciudad>
+        <nombre>Nueva Delhi</nombre>
+        <país>India</país>
+        <continente>Ásia</continente>
+    </ciudad>
+    <ciudad>
+        <nombre>Lisboa</nombre>
+        <país>Portugal</país>
+        <continente>Europa</continente>
+    </ciudad>
+    <ciudad>
+        <nombre>El Cairo</nombre>
+        <país>Egipto</país>
+        <continente>África</continente>
+    </ciudad>
+</ciudades>

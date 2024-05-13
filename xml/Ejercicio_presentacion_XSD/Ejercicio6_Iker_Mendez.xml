@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="Ejercicio6_Iker_Mendez.xsd">
+    <año año="2024"/>
+    <piloto>
+        <nombre>Juan</nombre>
+        <apellido>Palma</apellido>
+        <acrónimo acro="JUP"/>
+        <país>España</país>
+    </piloto>
+    <escudería>
+        <nombre>Ferrari</nombre>
+        <país>Italia</país>
+        <pilotos>
+            <piloto>
+                <nombre>Juan</nombre>
+            </piloto>
+        </pilotos>
+    </escudería>
+    <circuitos>
+        <circuito>
+            <nombre>Circuito de Mónaco</nombre>
+            <país>Italia</país>
+            <podium>
+                <piloto>
+                    <nombre>Juan</nombre>
+                    <posición>1</posición>
+                </piloto>
+                <piloto>
+                    <nombre>Manuel</nombre>
+                    <posición>2</posición>
+                </piloto>
+                <piloto>
+                    <nombre>Iker</nombre>
+                    <posición>3</posición>
+                </piloto>
+            </podium>
+        </circuito>
+    </circuitos>
+</temporada>

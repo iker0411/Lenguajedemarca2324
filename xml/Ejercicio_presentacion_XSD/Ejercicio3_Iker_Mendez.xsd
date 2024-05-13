@@ -1,0 +1,22 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/ciudades"
+           targetNamespace="http://example.com/ciudades"
+           elementFormDefault="qualified">
+
+  <xs:element name="ciudades">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ciudad" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="país" type="xs:string"/>
+              <xs:element name="continente" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/bandeja_de_entrada"
+           targetNamespace="http://example.com/bandeja_de_entrada"
+           elementFormDefault="qualified">
+
+  <xs:element name="bandeja_de_entrada">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="correo" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="remitente" type="xs:string"/>
+              <xs:element name="destinatario" type="xs:string"/>
+              <xs:element name="asunto" type="xs:string"/>
+              <xs:element name="cuerpo" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

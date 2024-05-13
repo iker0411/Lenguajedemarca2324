@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bandeja_de_entrada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:noNamespaceSchemaLocation="Ejercicio2_Iker_Mendez.xsd">
+    <correo>
+        <remitente>correo1@gmail.com</remitente>
+        <destinatario>correo2@gmail.com</destinatario>
+        <asunto>Documentos XML</asunto>
+        <cuerpo>Ejercicio 2 sobre los ficheros XML, lenguaje de marcas.</cuerpo>
+    </correo>
+</bandeja_de_entrada>

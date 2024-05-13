@@ -1,0 +1,51 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/clientes"
+           targetNamespace="http://example.com/clientes"
+           elementFormDefault="qualified">
+
+  <xs:element name="clientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cliente" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dni" type="xs:string"/>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="cuentas">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cuenta" minOccurs="1" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="numero" type="xs:long"/>
+                          <xs:element name="saldo" type="xs:decimal"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="prestamos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="prestamo" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="id" type="xs:integer"/>
+                          <xs:element name="principal" type="xs:string"/>
+                          <xs:element name="plazo_en_meses" type="xs:integer"/>
+                          <xs:element name="fecha_comienzo" type="xs:date"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
