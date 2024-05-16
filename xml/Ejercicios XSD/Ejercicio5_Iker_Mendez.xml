@@ -1,42 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://example.com/faq"
-           targetNamespace="http://example.com/faq"
-           elementFormDefault="qualified">
-  <xs:element name="faq">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="info" type="InfoType"/>
-        <xs:element name="part" minOccurs="1" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="q" minOccurs="1" maxOccurs="unbounded">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="qtext" type="xs:string"/>
-                    <xs:element name="a" type="xs:string"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:complexType name="InfoType">
-    <xs:sequence>
-      <xs:element name="titulo" type="xs:string"/>
-      <xs:element name="autor" type="xs:string"/>
-      <xs:element name="email" type="xs:string" minOccurs="0"/>
-      <xs:element name="version">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:pattern value="\d+(\.\d+)+"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-      <xs:element name="fecha" type="xs:date"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:schema>
+<faq xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <info>
+    <titulo>Preguntas Frecuentes</titulo>
+    <autor>Juan Pérez</autor>
+    <email>juan@example.com</email>
+    <version>1.0</version>
+    <fecha>2024-05-16</fecha>
+  </info>
+
+  <part>
+    <q>
+      <qtext>¿Cuál es el propósito de este documento?</qtext>
+      <a>Este documento tiene como objetivo proporcionar respuestas a preguntas comunes sobre nuestro producto/servicio.</a>
+    </q>
+    <q>
+      <qtext>¿Cómo puedo contactar al servicio de atención al cliente?</qtext>
+      <a>Puede contactarnos por correo electrónico a info@ejemplo.com o llamando al +123456789.</a>
+    </q>
+  </part>
+
+</faq>

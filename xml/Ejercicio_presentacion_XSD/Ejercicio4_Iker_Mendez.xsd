@@ -1,7 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://example.com/mensaje"
-           targetNamespace="http://example.com/mensaje"
-           elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <xs:element name="mensaje">
     <xs:complexType>

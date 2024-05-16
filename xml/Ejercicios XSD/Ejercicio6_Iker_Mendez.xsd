@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="libreria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="codigo" type="CodigoType"/>
+        <xs:element name="direccion" type="xs:string"/>
+        <xs:element name="telefono" type="TelefonoType"/>
+        <xs:element name="propietario" type="PropietarioType"/>
+        <xs:element name="libro" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="formato" type="FormatoType" minOccurs="0"/>
+              <xs:element name="publicacion" type="xs:gYear"/>
+              <xs:element name="precio" type="PrecioType"/>
+              <xs:element name="cantidad" type="xs:integer" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:simpleType name="CodigoType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1000"/>
+      <xs:maxInclusive value="9999"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="TelefonoType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{9}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="PropietarioType">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="telefono" type="TelefonoType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:simpleType name="FormatoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="rústica"/>
+      <xs:enumeration value="tapa blanda"/>
+      <xs:enumeration value="tapa dura"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="PrecioType">
+    <xs:restriction base="xs:decimal"/>
+  </xs:simpleType>
+
+</xs:schema>

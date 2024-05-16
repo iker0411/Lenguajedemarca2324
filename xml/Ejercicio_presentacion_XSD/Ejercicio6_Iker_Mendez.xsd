@@ -1,7 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://example.com/temporada"
-           targetNamespace="http://example.com/temporada"
-           elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <xs:element name="temporada">
     <xs:complexType>

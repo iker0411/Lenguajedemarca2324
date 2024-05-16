@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://example.com/heladeria"
-           targetNamespace="http://example.com/heladeria"
-           elementFormDefault="qualified">
-  <xs:element name="heladeria">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="helado" minOccurs="1" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-                 <xs:choice>
-                <xs:element name="chocolate" type="xs:integer"/>
-                <xs:element name="fresa" type="xs:integer"/>
-              </xs:choice>
-                <xs:choice>
-                <xs:element name="vainilla" type="xs:integer"/>
-                <xs:element name="turron" type="xs:integer"/>
-                <xs:element name="nata" type="xs:integer"/>
-              </xs:choice>
-            </xs:sequence>
-            <xs:attribute name="fabricación" type="xs:date" use="required"/>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-</xs:schema>
+<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <helado fabricación="2024-05-16">
+    <chocolate>10</chocolate>
+    <fresa>8</fresa>
+  </helado>
+
+  <helado fabricación="2024-05-15">
+    <vainilla>12</vainilla>
+    <turron>5</turron>
+    <nata>7</nata>
+  </helado>
+
+</heladeria>

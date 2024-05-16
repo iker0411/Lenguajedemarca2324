@@ -1,7 +1,5 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://example.com/pedido"
-           targetNamespace="http://example.com/pedido"
-           elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      
 
   <xs:element name="pedido">
     <xs:complexType>

@@ -1,7 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://example.com/bandeja_de_entrada"
-           targetNamespace="http://example.com/bandeja_de_entrada"
-           elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <xs:element name="bandeja_de_entrada">
     <xs:complexType>

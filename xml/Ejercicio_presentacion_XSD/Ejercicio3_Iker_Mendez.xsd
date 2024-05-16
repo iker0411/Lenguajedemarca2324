@@ -1,7 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns="http://example.com/ciudades"
-           targetNamespace="http://example.com/ciudades"
-           elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
   <xs:element name="ciudades">
     <xs:complexType>
