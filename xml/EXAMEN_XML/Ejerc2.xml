@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Iker Méndez Palma 1ºDAM-->
+<!DOCTYPE clínica_dental [
+<!ELEMENT clínica_dental (clientes)>
+<!ELEMENT clientes (cliente*)>
+<!ELEMENT cliente ( nombre, apellidos,  correo_electrónico, dirección, teléfono)>
+<!ATTLIST cliente id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT correo_electrónico (#PCDATA)>
+<!ELEMENT teléfono (#PCDATA)>
+<!ELEMENT dirección (calle, número, piso)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT número (#PCDATA)>
+<!ELEMENT piso (#PCDATA)>
+]>
+<clínica_dental>
+    <clientes>
+        <cliente id='1'>
+            <nombre>Iker</nombre>
+            <apellidos>Méndez Palma</apellidos>
+            <correo_electrónico>iker23@gmail.com</correo_electrónico>
+            <dirección>
+                <calle>Diego Méndez</calle>
+                <número>1</número>
+                <piso>Primero B</piso>
+            </dirección>
+            <teléfono>863246982</teléfono>
+        </cliente>
+        <cliente id='2'>
+            <nombre>Manuel</nombre>
+            <apellidos>Palma Pena</apellidos>
+            <correo_electrónico>manuelp32@gmail.com</correo_electrónico>
+            <dirección>
+                <calle>Pena Escudero</calle>
+                <número>43</número>
+                <piso>Cuarto C</piso>
+            </dirección>
+            <teléfono>268743698</teléfono>
+        </cliente>
+        <cliente id='3'>
+            <nombre>Alberto</nombre>
+            <apellidos>Carmona Contreras</apellidos>
+            <correo_electrónico>Acc03@gmail.com</correo_electrónico>
+            <dirección>
+                <calle>Gitano pena</calle>
+                <número>63</número>
+                <piso>Tercero C</piso>
+            </dirección>
+            <teléfono>934682156</teléfono>
+        </cliente>
+    </clientes>
+</clínica_dental>

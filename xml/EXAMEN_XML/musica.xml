@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coleccion SYSTEM "musica.dtd">
+<coleccion>
+    <albumes>
+        <album id="AL001" genero="Rock">
+            <titulo>Dark Side of the Moon</titulo>
+            <artistaReferencia>AR001</artistaReferencia>
+            <anioPublicacion>1973</anioPublicacion>
+        </album>
+        <album id="AL002" genero="Jazz">
+            <titulo>Kind of Blue</titulo>
+            <artistaReferencia>AR002</artistaReferencia>
+            <anioPublicacion>1959</anioPublicacion>
+        </album>
+    </albumes>
+    <artistas>
+        <artista id="AR001">
+            <nombre>Pink Floyd</nombre>
+        </artista>
+        <artista id="AR002">
+            <nombre>Miles Davis</nombre>
+        </artista>
+    </artistas>
+</coleccion>

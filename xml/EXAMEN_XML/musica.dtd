@@ -1,0 +1,14 @@
+<!-- Iker Méndez Palma-->
+<!ELEMENT coleccion (albumes, artistas)>
+<!ELEMENT albumes (album*)>
+<!ELEMENT album (titulo, artistaReferencia, anioPublicacion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT artistaReferencia (#PCDATA)>
+<!ELEMENT anioPublicacion (#PCDATA)>
+<!ATTLIST album id ID #REQUIRED>
+<!ATTLIST album genero CDATA #REQUIRED>
+<!ELEMENT albumes (artistas*)>
+<!ELEMENT artistas (artista*)>
+<!ATTLIST artista id ID #REQUIRED>
+<!ELEMENT artista (nombre)>
+<!ELEMENT nombre (#PCDATA)>
